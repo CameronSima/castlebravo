@@ -10,6 +10,8 @@ a {
 	display: block;
 	margin: 0 auto;
 	width: 717px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.46);
+
 }
 
 .project-title {
