@@ -47,4 +47,8 @@ p {
 	.image {
 		width: 100%;
 	}
+
+	.text-inner {
+		width: 100%;
+	}
 }
