@@ -1,0 +1,36 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+		script(src="/javascripts/scripts.js")
+
+
+	body
+		.container
+			div(role="navigation").navbar.navbar-default#Top
+				.container-fluid
+					.navbar-header
+						button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.navbar-brand#header_title(href='/') Cameron Sima
+					.collapse.navbar-collapse
+						ul.nav.navbar-nav.navbar-right
+							li
+								a(href="#Projects") Projects
+							li
+								a(href='#About') About
+							li
+								a(href='#Contact') Contact
+
+						ul.nav.navbar-nav.navbar-right
+			block content
